@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="2"/>
+
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="meta-java"/>
+  <remote fetch="https://github.com/akuster" name="meta-odroid" />
+  <remote fetch="https://github.com/vincykiel" name="meta-no" />
+
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="5357c7a40eaf8d1bcf7ff58edbba8e9527e40c7d" upstream="kirkstone"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="27de52e402ae000dfa502d52908cd6e6aef923ec" upstream="kirkstone"/>
+  <project name="meta-java" path="sources/meta-java" remote="meta-java" revision="87dd00a5b17ab020ee3415556a17c4451092c7fd" upstream="kirkstone"/>
+  <project name="meta-odroid" path="sources/meta-odroid" remote="meta-odroid" revision="kirkstone"/>
+  <project name="meta-no" path="sources/meta-no" remote="meta-no" revision="kirkstone"/>
+</manifest>
